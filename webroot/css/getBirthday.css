@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.mainInfo {
+    display: flex;
+}
+.header {
+    background-color: white;
+    height: 4vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    border-bottom: solid 1px black;
+}
+.container .birthday {
+    width: 50%;
+    background-color: #df80ac;
+    padding: 50px;
+    height: 385px;
+    text-align: center;
+}
+.container .informations {
+    width: 50%;
+    border-left: solid 2px black;
+    padding: 50px;
+    height: 385px;
+}
+.container .birthday img {
+    overflow: hidden;
+    border-radius: 100%;
+    /* margin-left: 25%; */
+    margin-bottom: 16%;
+    width: 260px;
+    height: 260px;
+}
+#names-list {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.container .informations .quote {
+    border: solid 2px black;
+    border-radius: 14px;
+    height: 15vh;
+    margin-bottom: 30px;
+    padding: 12px;
+}
+.container .informations .redguy {
+    padding: 12px;
+    border-radius: 14px;
+    border: solid 2px black;
+    height: 35vh;
+    text-align: center;
+}
+
+.container .informations .redguy img {
+    height: 200px;
+    width: 200px;
+}
